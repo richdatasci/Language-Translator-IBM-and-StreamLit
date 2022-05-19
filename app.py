@@ -6,9 +6,8 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator, authenticator
 
 # setting up the api key configuration
 
-api_key = '0g81zqW9kVgWIF48jvkfxJ41kNayYP3MhuEEHuc0CRbL'
-url = 'https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/6c41a5d8-23bc-4b36-ac8d-feaf40757e3e'
-
+api_key = ''
+url = ''
 authenticator = IAMAuthenticator(apikey=api_key)
 
 langtranslator = LanguageTranslatorV3(
